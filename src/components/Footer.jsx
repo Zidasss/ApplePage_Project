@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="flex md:flex-row flex-col md:items-center justify-between">
           <p className="font-semibold text-gray text-xs">Developed by Gustavo Zavadniak as a study case.</p>
-          <div className="flex">
+          <div className="flex flex-wrap">
             {footerLinks.map((link, i) => (
               <p key={link} className="font-semibold text-gray text-xs">
                 {link}{' '}
